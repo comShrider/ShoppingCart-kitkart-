@@ -1,0 +1,275 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: green;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.25rem;
+}
+a {
+  text-decoration: none;
+  color: green;
+}
+hr {
+  border-color: green;
+}
+table {
+  min-width: 500px;
+}
+.clicked {
+  background-color: green;
+  color: black;
+}
+
+.main {
+  width: 960px;
+  margin: 10px auto;
+  border: 2px solid green;
+  min-height: 700px;
+}
+.header {
+  height: 200px;
+  border: 2px solid green;
+}
+.title {
+  display: inline-block;
+  vertical-align: top;
+  width: 545px;
+  text-align: center;
+}
+.title h1 {
+  margin: 0;
+  margin-top: 50px;
+}
+.title p {
+  margin: 0;
+  font-weight: 700;
+}
+.logo {
+  height: 200px;
+  display: inline-block;
+  vertical-align: top;
+}
+.logo img {
+  height: 200px;
+  width: 200px;
+}
+.logo h1 {
+  margin: 0;
+  font-size: 150px;
+  width: 198.05px;
+  height: 200px;
+  border-right: 2px solid green;
+  text-align: center;
+  line-height: 200px;
+}
+.content {
+  min-height: 400px;
+}
+.footer {
+  text-align: center;
+  min-height: 100px;
+  background-color: green;
+  color: black;
+  line-height: 100px;
+}
+.newsRegLoginBtns {
+  text-align: right;
+  margin: 2px 20px 0 0;
+}
+.newsRegLoginBtns a:hover {
+  color: greenyellow;
+  text-shadow: 1px 1px 1px goldenrod;
+}
+.form {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid green;
+  font-size: 1.5rem;
+}
+input[type="text"],
+input[type="file"],
+input[type="password"],
+input[type="radio"],
+input[type="submit"],
+input[type="checkbox"],
+input[type="reset"],
+input[type="date"],
+select,
+textarea {
+  display: block;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  width: 100%;
+  font-size: 1.25rem;
+}
+.btnGrp {
+  margin: 30px auto 0;
+  padding: 5px;
+}
+.btnGrp input {
+  background-color: green;
+  border: 2px solid grey;
+  color: black;
+}
+.btnGrp input:hover {
+  background-color: black;
+  border: 2px solid green;
+  color: green;
+}
+.resmsg {
+  background-color: green;
+  border: 2px solid green;
+  color: black;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.resmsg p {
+  margin: 0;
+}
+.leftBox {
+  width: 198px;
+  height: 100%;
+  border: 2px solid green;
+  display: inline-block;
+  vertical-align: top;
+}
+.leftBox ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.leftBox li a {
+  display: block;
+  padding: 5px 5px 5px 15px;
+}
+.leftBox li a:hover {
+  background-color: green;
+  color: black;
+}
+.leftBox .report {
+  text-align: center;
+  color: greenyellow;
+  margin-top: 30px;
+}
+.rightBox {
+  width: 746px;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+.section {
+  width: 90%;
+  margin: 10px auto;
+}
+.box {
+  min-width: 150px;
+  min-height: 150px;
+  border: 2px solid green;
+  margin: 20px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  padding: 10px;
+}
+.box img {
+  margin-top: 5px;
+  width: 100px;
+  height: 100px;
+}
+.btnAddToCart a {
+  display: block;
+  background-color: green;
+  border: 2px solid grey;
+  color: black;
+  margin-top: 20px;
+  padding: 10px;
+  font-weight: 700;
+}
+.btnAddToCart a:hover {
+  background-color: black;
+  border: 2px solid green;
+  color: green;
+}
+.headerWelcomeMsg {
+  margin-top: 10px;
+}
+.headerWelcomeMsg a {
+  margin-top: 10px;
+  background-color: green;
+  color: black;
+}
+.headerWelcomeMsg a:hover {
+  background-color: black;
+  border: 2px solid green;
+  color: green;
+}
+.btnPlaceOrder a {
+  display: block;
+  background-color: green;
+  border: 2px solid grey;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-weight: 700;
+  width: 150px;
+  text-align: center;
+}
+.btnPlaceOrder a:hover {
+  background-color: black;
+  border: 2px solid green;
+  color: green;
+}
+.cartIcon {
+  margin: 5px 0;
+}
+.cartIcon img {
+  height: 20px;
+  width: 25px;
+}
+.cartIcon a {
+  padding: 2px;
+  background-color: green;
+  border-radius: 50%;
+}
+.displayCartTable img {
+  width: 100px;
+  height: 100px;
+}
+.adminInboxDetail {
+  width: 80%;
+  margin: 50px auto;
+  border: 2px solid green;
+  padding: 20px;
+}
+.btnReplyFromAdmin {
+  width: 50px;
+  margin: 0px auto;
+}
+.btnReplyFromAdmin a {
+  display: block;
+  background-color: green;
+  border: 2px solid grey;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-weight: 700;
+  width: 150px;
+  text-align: center;
+}
+.btnReplyFromAdmin a:hover {
+  background-color: black;
+  border: 2px solid green;
+  color: green;
+}
+.home-hr {
+  border: none;
+  border-top-style: dotted;
+  width: 95%;
+  margin: 50px auto;
+}
