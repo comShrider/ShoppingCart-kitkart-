@@ -1,2 +1,2 @@
 # ShoppingCart-kitkart-
-A basic shopping cart website
+# A basic shopping cart website
